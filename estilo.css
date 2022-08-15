@@ -1,0 +1,219 @@
+body{
+    background-color: #F3F5FC;
+    margin: 100px 50px 75px 200px;
+}
+
+input{
+    position: absolute;
+
+
+    width: 90%;
+    max-width: 480px;
+
+    height: 48px;
+    left: 18%;
+
+    font-size: 16px;
+
+}
+
+.botoesCorpo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+
+    width: 90%;
+    max-width: 680px;
+
+    height: 67px;
+    left: 18%;
+    top: 75%;
+}
+
+.botao1{
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 88px;
+
+    width: 90%;
+    max-width: 208px;
+    
+    height: 67px;
+
+    
+    color: #F3F5FC;
+    background-color: #0A3871;
+
+    border-radius: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.botao1:hover{
+    background-color: #588bca;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+.botão2{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 90%;
+    max-width: 230px;
+    height: 67px;
+
+    /* Light gray */
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.botão2:hover{
+    background-color: #e6ebff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: #3f269b;
+}
+
+.texto_resultante{
+
+    position: absolute;
+
+    width: 90%;
+    max-width: 300px;
+    height: 500px;
+
+    left: 65%;
+    top: 80px;
+
+    line-height: 150%;
+    
+    background-color: blueviolet;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+h3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    position: absolute;
+
+    width: 90%;
+    max-width: 120px;
+    
+    height: 48px;
+    left: 18%;
+    top: 40px;
+}
+
+footer{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 100%;
+max-width: 252px;
+height: 18px;
+left: 240px;
+top: 88%;
+
+}
+
+.aindaVazio{
+    text-align: center;
+    font-family:  monospace;
+    color: #F3F5FC;
+    font-size: 15px;
+    margin-top: 36%;
+    margin-left: auto;
+}
+
+img{
+    margin: auto;
+    width: 80%;
+}
+
+
+#input-texto{
+
+    width: 70%;
+    height: 90%;
+    margin-top: -45px;
+
+    font-size: 20px;
+
+    color: white;
+
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+
+    text-align: center;
+    resize: none;
+
+}
+
+
+.btn-copiar{
+
+    border: 2px solid #d182f0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+
+    /*Tamanho do botão*/
+    width: 150px;
+    height: 50px;
+
+
+    margin-bottom: 15%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.btn-copiar:hover{
+   border: 2px solid #588bca;
+   transition: 0.5s all;
+}
+
+
+
