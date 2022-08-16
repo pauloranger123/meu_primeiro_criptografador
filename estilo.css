@@ -216,4 +216,504 @@ img{
 }
 
 
+/* TABLET: */
+@media (max-width: 768px){
+    
+    body{
+        background-color: #F3F5FC;
+        margin: 100px 50px 75px 200px;
+    } 
 
+    h3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        
+        position: absolute;
+
+        width: 90%;
+        max-width: 120px;
+        
+        height: 48px;
+        top: 30px;
+        left: 8%;
+    }
+
+    input{
+
+        position: absolute;    
+    
+        width: 100%;
+        max-width: 668px;
+    
+        height: 48px;
+        left: 50px;
+    
+        font-size: 16px;
+    
+    }
+
+    .botoesCorpo{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        
+        position: absolute;
+        width: 688px;
+        height: 67px;
+        left: 50px;
+        top: 349px;
+    }
+
+    .botao1{
+
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 88px;
+    
+        width: 90%;
+        max-width: 332px;
+        
+        height: 67px;
+    
+        
+        color: #F3F5FC;
+        background-color: #0A3871;
+    
+        border-radius: 20px;
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        
+    }
+    
+    .botao1:hover{
+        background-color: #588bca;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+    }
+    
+    .botão2{
+        box-sizing: border-box;
+    
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+    
+        width: 90%;
+        max-width: 332px;
+        height: 67px;
+    
+        /* Light gray */
+    
+        background: #D8DFE8;
+        /* Dark blue/dark-blue-300 */
+    
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    
+    }
+
+    .texto_resultante{
+
+        position: absolute;
+    
+        width: 90%;
+        max-width: 688px;
+        height: 500px;
+    
+        left: 50px;
+        top: 463px;
+    
+        line-height: 150%;
+        
+        background-color: blueviolet;
+    
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    footer{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        
+        position: absolute;
+        width: 100%;
+        max-width: 173px;
+        height: 18px;
+        left: 295px;
+        top: 170%;
+        
+        }
+
+        .aindaVazio{
+            text-align: center;
+            font-family:  monospace;
+            color: #F3F5FC;
+            font-size: 15px;
+            margin-top: 9.5%;
+            margin-left: auto;
+        }
+        
+        img{
+            margin: auto;
+            width: 50%;
+        }
+
+
+
+}
+
+/* MENOR CELULAR: */
+
+@media (max-width: 375px){
+    
+    body{
+        background-color: #F3F5FC;
+        margin: 100px 50px 75px 200px;
+    } 
+
+    h3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        
+        position: absolute;
+
+        width: 90%;
+        max-width: 120px;
+        
+        height: 48px;
+        top: 30px;
+        left: 8%;
+    }
+
+    input{
+
+        position: absolute;       
+        width: 280px;            
+        height: 48px;
+        left: 16px;
+
+    
+        font-size: 16px;
+    
+    }
+
+    .botoesCorpo{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        
+        position: absolute;
+        width: 280px;
+        height: 158px;
+        left: 16px;
+        top: 266px;
+    }
+
+    .botao1{
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        width: 290px;
+        height: 67px;
+
+        /* Dark blue/dark-blue-300 */
+
+        background: #0A3871;
+        border-radius: 24px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        
+    }
+    
+    .botao1:hover{
+        background-color: #588bca;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+    }
+    
+    .botão2{
+
+        box-sizing: border-box;
+
+        /* Auto layout */
+        
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        
+        width: 290px;
+        height: 67px;
+        
+        /* Dark blue/dark-blue-300 */
+        
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    
+    }
+
+    .texto_resultante{
+
+        position: absolute;
+    
+        width: 290px;
+        height: 500px;
+    
+        left: 16px;
+        top: 463px;
+    
+        line-height: 150%;
+        
+        background-color: blueviolet;
+    
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    footer{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        
+        position: absolute;
+        width: 100%;
+        max-width: 173px;
+        height: 18px;
+        left: 80px;
+        top: 170%;
+        
+        }
+
+        .aindaVazio{
+            text-align: center;
+            font-family:  monospace;
+            color: #F3F5FC;
+            font-size: 15px;
+            margin-top: 30%;
+            margin-left: auto;
+        }
+        
+        img{
+            margin: auto;
+            width: 50%;
+        }
+
+
+
+}
+
+/* MENOR CELULAR: */
+
+@media (max-width: 320px){
+    
+    body{
+        background-color: #F3F5FC;
+        margin: 100px 50px 75px 200px;
+    } 
+
+    h3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        
+        position: absolute;
+
+        width: 90%;
+        max-width: 120px;
+        
+        height: 48px;
+        top: 30px;
+        left: 8%;
+    }
+
+    input{
+
+        position: absolute;       
+        width: 280px;            
+        height: 48px;
+        left: 16px;
+
+    
+        font-size: 16px;
+    
+    }
+
+    .botoesCorpo{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        
+        position: absolute;
+        width: 280px;
+        height: 158px;
+        left: 16px;
+        top: 266px;
+    }
+
+    .botao1{
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        width: 290px;
+        height: 67px;
+
+        /* Dark blue/dark-blue-300 */
+
+        background: #0A3871;
+        border-radius: 24px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        
+    }
+    
+    .botao1:hover{
+        background-color: #588bca;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+    }
+    
+    .botão2{
+
+        box-sizing: border-box;
+
+        /* Auto layout */
+        
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        
+        width: 290px;
+        height: 67px;
+        
+        /* Dark blue/dark-blue-300 */
+        
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    
+    }
+
+    .texto_resultante{
+
+        position: absolute;
+    
+        width: 290px;
+        height: 500px;
+    
+        left: 16px;
+        top: 463px;
+    
+        line-height: 150%;
+        
+        background-color: blueviolet;
+    
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    footer{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        
+        position: absolute;
+        width: 100%;
+        max-width: 173px;
+        height: 18px;
+        left: 80px;
+        top: 170%;
+        
+        }
+
+        .aindaVazio{
+            text-align: center;
+            font-family:  monospace;
+            color: #F3F5FC;
+            font-size: 15px;
+            margin-top: 30%;
+            margin-left: auto;
+        }
+        
+        img{
+            margin: auto;
+            width: 50%;
+        }
+
+
+
+}
