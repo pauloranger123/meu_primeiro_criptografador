@@ -5,14 +5,10 @@ body{
 
 input{
     position: absolute;
-
-
     width: 90%;
     max-width: 480px;
-
     height: 48px;
     left: 18%;
-
     font-size: 16px;
 
 }
@@ -44,10 +40,8 @@ input{
     gap: 88px;
 
     width: 90%;
-    max-width: 208px;
-    
+    max-width: 208px;    
     height: 67px;
-
     
     color: #F3F5FC;
     background-color: #0A3871;
@@ -68,9 +62,7 @@ input{
 
 .botão2{
     box-sizing: border-box;
-
-    /* Auto layout */
-
+ 
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -81,15 +73,10 @@ input{
     max-width: 230px;
     height: 67px;
 
-    /* Light gray */
-
     background: #D8DFE8;
-    /* Dark blue/dark-blue-300 */
 
     border: 1px solid #0A3871;
     border-radius: 24px;
-
-    /* Inside auto layout */
 
     flex: none;
     order: 1;
@@ -189,6 +176,8 @@ img{
 
     text-align: center;
     resize: none;
+    
+    border-radius: 5px;
 
 }
 
@@ -203,7 +192,6 @@ img{
     /*Tamanho do botão*/
     width: 150px;
     height: 50px;
-
 
     margin-bottom: 15%;
     margin-left: 1%;
