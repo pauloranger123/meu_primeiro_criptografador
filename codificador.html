@@ -1,6 +1,6 @@
 <!DOCTYPE html>    
 
-</html lang="pt-br">
+<html lang="pt-br">
 
 <head>
 <meta charset="UTF-8">
@@ -10,47 +10,47 @@
 <link href="estilo.css" rel="stylesheet">
 
 <!--Titulo-->
-<title>Decodificador</title>
+
+    <title>Decodificador</title>
 
 </head>
 
-<h3>Decodificador</h3>
+ <h3>Decodificador</h3>
 
 <!--Corpo para eu poder controlar tudo junto:-->
 <body>
 
-    
+    <main>
 
     <!--Input para escrever o texto-->
     <input type="text" id="digitaTexto" placeholder="Escreva sua palavra ou texto!">
     
     <!--Botões-->
     <div class="botoesCorpo">
+        <!-- Botão 1 -->
+        <button class="botao1" onclick="criptografar()">Cripitografar</button>
 
-    <!-- Botão 1 -->
-    <button class="botao1" onclick="criptografar()">Cripitografar</button>
-
-    <!-- Botão 2 -->
-    <button class="botão2" onclick="descriptografar()">Descodificar</button>
+        <!-- Botão 2 -->
+        <button class="botão2" onclick="descriptografar()">Descodificar</button>
     </div>
 
     <!--Onde mostrará os resultados-->
-    <div class="texto_resultante" >
+            <div class="texto_resultante" >
 
-        <div class="aindaVazio" id="resultado">
+                <div class="aindaVazio" id="resultado">
+                    
+                <p>Envie um texto para aparecer codificado aqui</p>
+                <img src="empty-box.png">
             
-        <p>Envie um texto para aparecer codificado aqui</p>
-        <img src="empty-box.png">
-    
-    </div>
-    </div>
-
+            </div>
+        </div>
+    </main>
 
     <!--Rodapé Com meu Nome-->
     <footer>Criado por <a href="https://www.linkedin.com/in/paulo-mateus-d/" 
     target="_blank">Paulo Mateus</a></footer>
 
-
+    <script src="script.js"></script>
 </body>
 
-<script src="script.js"></script>
+

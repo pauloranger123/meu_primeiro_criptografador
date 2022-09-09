@@ -1,7 +1,6 @@
 
 
 var textInput = document.querySelector("input");
-
 var resultado = document.querySelector("#resultado");
 
 function criptografar(){
