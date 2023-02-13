@@ -1,0 +1,41 @@
+@media screen and (min-width: 767px) {
+    .botoesCorpo {
+        flex-direction: row;      
+    }  
+    
+    .botao1 {
+        margin-bottom: 0;
+        margin-right: 5px;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1023px) {
+
+    .codificar {
+        flex-direction: row;
+        margin: 15px 30px;
+        height: 540px;
+        margin-bottom: 0;
+    }   
+
+    .aindaVazio {
+        margin-top: 20%;
+        padding: 20px
+    }
+
+
+    .controlaDirection {
+        width: 70%; 
+        margin-right: 38px;
+        justify-content: space-evenly;
+        gap: 310px;
+    }
+
+    .texto_resultante {      
+        width: 32%;
+    }
+    
+  }

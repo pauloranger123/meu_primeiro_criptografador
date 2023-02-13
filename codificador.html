@@ -1,56 +1,52 @@
-<!DOCTYPE html>    
+<!DOCTYPE html>
 
 <html lang="pt-br">
 
 <head>
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link href="estilo.css" rel="stylesheet">
-
-<!--Titulo-->
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet">
+    <link href="responsivo.css" rel="stylesheet">
     <title>Decodificador</title>
 
 </head>
-
- <h3>Decodificador</h3>
-
 <!--Corpo para eu poder controlar tudo junto:-->
+
 <body>
 
     <main>
+        <!--Titulo-->
+        <h3>Decodificador</h3>
+        <!--Input para escrever o texto-->
+        <section class="codificar">
+            <div class="controlaDirection">
+                <input type="text" id="digitaTexto" placeholder="Escreva sua palavra ou texto!">
 
-    <!--Input para escrever o texto-->
-    <input type="text" id="digitaTexto" placeholder="Escreva sua palavra ou texto!">
-    
-    <!--Botões-->
-    <div class="botoesCorpo">
-        <!-- Botão 1 -->
-        <button class="botao1" onclick="criptografar()">Cripitografar</button>
+                <!--Botões-->
+                <div class="botoesCorpo">
+                    <!-- Botão 1 -->
+                    <button class="botao1" onclick="criptografar()">Codificar</button>
 
-        <!-- Botão 2 -->
-        <button class="botão2" onclick="descriptografar()">Descodificar</button>
-    </div>
-
-    <!--Onde mostrará os resultados-->
-            <div class="texto_resultante" >
-
-                <div class="aindaVazio" id="resultado">
-                    
-                <p>Envie um texto para aparecer codificado aqui</p>
-                <img src="empty-box.png">
-            
+                    <!-- Botão 2 -->
+                    <button class="botao2" onclick="descriptografar()">Descodificar</button>
+                </div>
             </div>
-        </div>
-    </main>
+            <div class="texto_resultante">
+                <div class="aindaVazio" id="resultado">
+                    <p>Envie um texto para aparecer codificado aqui</p>
+                    <img src="empty-box.png">
+                </div>
+            </div>
 
-    <!--Rodapé Com meu Nome-->
-    <footer>Criado por <a href="https://www.linkedin.com/in/paulo-mateus-d/" 
-    target="_blank">Paulo Mateus</a></footer>
+        </section>
+
+        <!--Onde mostrará os resultados-->
+
+
+        <!--Rodapé Com meu Nome-->
+        <footer>Criado por<a href="https://www.linkedin.com/in/paulo-mateus-d/" target="_blank">Paulo Mateus</a>
+        </footer>
+    </main>
 
     <script src="script.js"></script>
 </body>
-
-
